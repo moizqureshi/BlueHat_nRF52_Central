@@ -36,7 +36,8 @@ if __name__ == "__main__":
     logging.basicConfig()
 
     print('Connecting to BlueHat SocketIO Server')
-    socketIO = SocketIO('http://127.0.0.1', 8000)
+    socketIO = SocketIO('http://127.0.0.1', 5000, LoggingNamespace)
+    socketIO.wait(seconds=1)
     socketIO.on('bluehat_server_response', on_server_response)
 
     print 'Starting Observer Scan Scheduler!\n'
