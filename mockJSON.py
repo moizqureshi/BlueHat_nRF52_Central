@@ -22,9 +22,6 @@ class Observer(BaseNamespace):
     def on_disconnect(self):
         print('Device: Disconnected from BlueHat Server')
 
-    def on_server_response(self, *args):
-        print('BlueHat Server Response: ', args)
-
 def on_server_response(*args):
     print('BlueHat Server Response: ', args)
 
@@ -47,7 +44,7 @@ def scheduledAdvertiserScan():
     print "Device ID: %s, RSSI: %d dB" % (json_data['advertiser_id'], json_data['rssi'])
     print "BlueHat Data: %s" % json_data['data']
     observer.emit('observer_json_msg', json_data)
-    socketIO.wait(seconds=1)
+    socketIO.wait(seconds=0.1)
     print('\n')
 
 
