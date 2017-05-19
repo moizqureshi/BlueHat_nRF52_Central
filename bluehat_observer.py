@@ -12,7 +12,7 @@ logging.basicConfig()
 # logging.getLogger('requests').setLevel(logging.WARNING)
 # logging.basicConfig(level=logging.DEBUG)
 
-HOST = 'http://0f0e739a.ngrok.io'
+HOST = 'http://e14b64f1.ngrok.io'
 PORT = 8000
 NAMESPACE = "/observer"
 
@@ -44,28 +44,30 @@ scanner = Scanner()
 
 
 def scheduledAdvertiserScan():
-    start = time.time()
     devices = scanner.scan(3.0)
     print datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     json_list = []
     for dev in devices:
         json_data = {}
-        uuid = dev.scanData.get(255, None).encode("hex")[:28]
-        if (uuid is not None and uuid == "ffff0123456789abcdefffffffff"):
-            json_data = {}
-            deviceID = dev.scanData.get(255, None).encode("hex")[29:36]
-            rssi = dev.rssi
-            data = dev.scanData.get(255, None).encode("hex")[37:]
-            json_data = {
-                "DeviceID":deviceID,
-                "RSSI":rssi,
-                "Data":data
-            }
-            print "Device ID: %s, RSSI: %d dB" % (deviceID, rssi)
-            print "BlueHat Data: %s" % data
-        json_list.append(json_data)
+        uuid = dev.scanData.get(255, None)
+        if(uuid is not None):
+            uuidStr = dev.scanData.get(255, None).encode("hex")[:28]
+            if (uuidStr == "ffff0123456789abcdefffffffff"):
+                json_data = {}
+                deviceID = dev.scanData.get(255, None).encode("hex")[28:36]
+                rssi = dev.rssi
+                data = dev.scanData.get(255, None).encode("hex")[37:]
+                json_data = {
+                    "ObserverID":OBSERVER_ID,
+                    "ObserverLocation":OBSERVER_LOCATION,
+                    "DeviceID":deviceID,
+                    "RSSI":rssi,
+                    "Data":data
+                }
+                print "Device ID: %s, RSSI: %d dB" % (deviceID, rssi)
+                print "BlueHat Data: %s" % data
+                json_list.append(json_data)
     threading.Thread(name='emitWorker', target=emitWorker, args=(json_list,)).start()
-    end = time.time()
     print(end-start)
 
 if __name__ == "__main__":
