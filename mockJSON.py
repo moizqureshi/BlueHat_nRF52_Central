@@ -11,7 +11,7 @@ import datetime
 
 OBSERVER_ID = "1"
 OBSERVER_LOCATION = "Location 1"
-HOST = 'localhost'
+HOST = 'http://0f0e739a.ngrok.io'
 PORT = 8000
 NAMESPACE = "/observer"
 
@@ -26,7 +26,7 @@ def on_server_response(*args):
     print('BlueHat Server Response: ', args)
 
 
-socketIO = SocketIO(HOST, PORT)
+socketIO = SocketIO(HOST, None)
 observer = socketIO.define(Observer, NAMESPACE)
 observer.on('on_server_response', on_server_response)
 socketIO.wait(seconds=1)

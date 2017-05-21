@@ -68,7 +68,6 @@ def scheduledAdvertiserScan():
                 print "BlueHat Data: %s" % data
                 json_list.append(json_data)
     threading.Thread(name='emitWorker', target=emitWorker, args=(json_list,)).start()
-    print(end-start)
 
 if __name__ == "__main__":
 
