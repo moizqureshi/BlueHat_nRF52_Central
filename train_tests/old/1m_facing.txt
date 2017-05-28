@@ -1,0 +1,152 @@
+Time 2017-05-20 18:03:59 
+ID: bbbbbbbb 
+RSSI: -75 
+
+Time 2017-05-20 18:04:04 
+ID: bbbbbbbb 
+RSSI: -82 
+
+Time 2017-05-20 18:04:09 
+ID: bbbbbbbb 
+RSSI: -67 
+
+Time 2017-05-20 18:04:14 
+ID: bbbbbbbb 
+RSSI: -71 
+
+Time 2017-05-20 18:04:19 
+ID: bbbbbbbb 
+RSSI: -67 
+
+Time 2017-05-20 18:04:24 
+ID: bbbbbbbb 
+RSSI: -68 
+
+Time 2017-05-20 18:04:29 
+ID: bbbbbbbb 
+RSSI: -59 
+
+Time 2017-05-20 18:04:34 
+ID: bbbbbbbb 
+RSSI: -62 
+
+Time 2017-05-20 18:04:39 
+ID: bbbbbbbb 
+RSSI: -63 
+
+Time 2017-05-20 18:04:44 
+ID: bbbbbbbb 
+RSSI: -58 
+
+Time 2017-05-20 18:04:49 
+ID: bbbbbbbb 
+RSSI: -63 
+
+Time 2017-05-20 18:04:54 
+ID: bbbbbbbb 
+RSSI: -60 
+
+Time 2017-05-20 18:04:59 
+ID: bbbbbbbb 
+RSSI: -62 
+
+Time 2017-05-20 18:05:04 
+ID: bbbbbbbb 
+RSSI: -56 
+
+Time 2017-05-20 18:05:09 
+ID: bbbbbbbb 
+RSSI: -59 
+
+Time 2017-05-20 18:05:14 
+ID: bbbbbbbb 
+RSSI: -56 
+
+Time 2017-05-20 18:05:19 
+ID: bbbbbbbb 
+RSSI: -64 
+
+Time 2017-05-20 18:05:24 
+ID: bbbbbbbb 
+RSSI: -60 
+
+Time 2017-05-20 18:05:29 
+ID: bbbbbbbb 
+RSSI: -56 
+
+Time 2017-05-20 18:05:34 
+ID: bbbbbbbb 
+RSSI: -57 
+
+Time 2017-05-20 18:05:39 
+ID: bbbbbbbb 
+RSSI: -59 
+
+Time 2017-05-20 18:05:44 
+ID: bbbbbbbb 
+RSSI: -60 
+
+Time 2017-05-20 18:05:49 
+ID: bbbbbbbb 
+RSSI: -57 
+
+Time 2017-05-20 18:05:54 
+ID: bbbbbbbb 
+RSSI: -59 
+
+Time 2017-05-20 18:05:59 
+ID: bbbbbbbb 
+RSSI: -54 
+
+Time 2017-05-20 18:06:04 
+ID: bbbbbbbb 
+RSSI: -57 
+
+Time 2017-05-20 18:06:09 
+ID: bbbbbbbb 
+RSSI: -56 
+
+Time 2017-05-20 18:06:14 
+ID: bbbbbbbb 
+RSSI: -59 
+
+Time 2017-05-20 18:06:19 
+ID: bbbbbbbb 
+RSSI: -58 
+
+Time 2017-05-20 18:06:24 
+ID: bbbbbbbb 
+RSSI: -58 
+
+Time 2017-05-20 18:06:29 
+ID: bbbbbbbb 
+RSSI: -57 
+
+Time 2017-05-20 18:06:34 
+ID: bbbbbbbb 
+RSSI: -58 
+
+Time 2017-05-20 18:06:39 
+ID: bbbbbbbb 
+RSSI: -61 
+
+Time 2017-05-20 18:06:44 
+ID: bbbbbbbb 
+RSSI: -59 
+
+Time 2017-05-20 18:06:49 
+ID: bbbbbbbb 
+RSSI: -58 
+
+Time 2017-05-20 18:06:54 
+ID: bbbbbbbb 
+RSSI: -57 
+
+Time 2017-05-20 18:06:59 
+ID: bbbbbbbb 
+RSSI: -59 
+
+Time 2017-05-20 18:07:04 
+ID: bbbbbbbb 
+RSSI: -60 
+

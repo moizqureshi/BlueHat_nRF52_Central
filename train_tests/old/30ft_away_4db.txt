@@ -1,0 +1,151 @@
+Time 2017-05-20 19:03:06
+ID: bbbbbbbb
+RSSI: -69
+
+Time 2017-05-20 19:03:08
+ID: bbbbbbbb
+RSSI: -80
+
+Time 2017-05-20 19:03:10
+ID: bbbbbbbb
+RSSI: -80
+
+Time 2017-05-20 19:03:12
+ID: bbbbbbbb
+RSSI: -82
+
+Time 2017-05-20 19:03:14
+ID: bbbbbbbb
+RSSI: -70
+
+Time 2017-05-20 19:03:16
+ID: bbbbbbbb
+RSSI: -83
+
+Time 2017-05-20 19:03:18
+ID: bbbbbbbb
+RSSI: -67
+
+Time 2017-05-20 19:03:20
+ID: bbbbbbbb
+RSSI: -65
+
+Time 2017-05-20 19:03:22
+ID: bbbbbbbb
+RSSI: -79
+
+Time 2017-05-20 19:03:24
+ID: bbbbbbbb
+RSSI: -67
+
+Time 2017-05-20 19:03:26
+ID: bbbbbbbb
+RSSI: -62
+
+Time 2017-05-20 19:03:28
+ID: bbbbbbbb
+RSSI: -84
+
+Time 2017-05-20 19:03:30
+ID: bbbbbbbb
+RSSI: -67
+
+Time 2017-05-20 19:03:32
+ID: bbbbbbbb
+RSSI: -83
+
+Time 2017-05-20 19:03:34
+ID: bbbbbbbb
+RSSI: -80
+
+Time 2017-05-20 19:03:36
+ID: bbbbbbbb
+RSSI: -67
+
+Time 2017-05-20 19:03:38
+ID: bbbbbbbb
+RSSI: -63
+
+Time 2017-05-20 19:03:42
+ID: bbbbbbbb
+RSSI: -79
+
+Time 2017-05-20 19:03:44
+ID: bbbbbbbb
+RSSI: -84
+
+Time 2017-05-20 19:03:46
+ID: bbbbbbbb
+RSSI: -68
+
+Time 2017-05-20 19:03:48
+ID: bbbbbbbb
+RSSI: -79
+
+Time 2017-05-20 19:03:52
+ID: bbbbbbbb
+RSSI: -81
+
+Time 2017-05-20 19:03:56
+ID: bbbbbbbb
+RSSI: -80
+
+Time 2017-05-20 19:03:58
+ID: bbbbbbbb
+RSSI: -82
+
+Time 2017-05-20 19:04:00
+ID: bbbbbbbb
+RSSI: -79
+
+Time 2017-05-20 19:04:04
+ID: bbbbbbbb
+RSSI: -83
+
+Time 2017-05-20 19:04:06
+ID: bbbbbbbb
+RSSI: -79
+
+Time 2017-05-20 19:04:08
+ID: bbbbbbbb
+RSSI: -73
+
+Time 2017-05-20 19:04:10
+ID: bbbbbbbb
+RSSI: -81
+
+Time 2017-05-20 19:04:12
+ID: bbbbbbbb
+RSSI: -79
+
+Time 2017-05-20 19:04:14
+ID: bbbbbbbb
+RSSI: -81
+
+Time 2017-05-20 19:04:16
+ID: bbbbbbbb
+RSSI: -83
+
+Time 2017-05-20 19:04:18
+ID: bbbbbbbb
+RSSI: -66
+
+Time 2017-05-20 19:04:20
+ID: bbbbbbbb
+RSSI: -85
+
+Time 2017-05-20 19:04:22
+ID: bbbbbbbb
+RSSI: -68
+
+Time 2017-05-20 19:04:26
+ID: bbbbbbbb
+RSSI: -82
+
+Time 2017-05-20 19:04:28
+ID: bbbbbbbb
+RSSI: -67
+
+Time 2017-05-20 19:04:30
+ID: bbbbbbbb
+RSSI: -83 
